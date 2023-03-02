@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LocalDeliv</title>
+  <link rel="stylesheet" href="estilos/cssPrincipal.css">
+</head>
+
+<header>
+  <h1 class="logo">LocalDeliv</h1> 
+  <input type="checkbox" id="nav-desplegable" class="nav-desplegable">  
+  <nav>         
+      <ul>
+          <li><a href="#">INICIO</a></li>
+          <li><a href="#">SOBRE_NOSOTROS</a></li>
+          <li><a href="#">AYUDA</a></li>
+          <li><a href="#">CONTACTO</a></li>
+          <li><a href="#">LOGIN</a></li>
+      </ul>
+  </nav>
+  <label for="nav-desplegable" class="nav-desplegable-label">
+      <span></span>
+  </label>
+</header>
+
+
+<body class="grid-container">
+    <div id="slider">
+      <figure>
+        <img src="imagenes/primera.png" alt="primera">
+        <img src="imagenes/segunda.png" alt="segunda">
+        <img src="imagenes/primera.png" alt="primera">
+        <img src="imagenes/segunda - copia.png" alt="segunda-copia">
+        <img src="imagenes/primera - copia.png" alt="primera-copia">
+      </figure>
+    </div>
+    
+  <aside class="sidebar">
+    <ul>
+      <li><a href="#">Comida China</a></li>
+      <li><a href="#">Kebab</a></li>
+      <li><a href="#">Pizza</a></li>
+      <li><a href="#">Sushi</a></li>
+      <li><a href="#">Hamburguesas</a></li>
+      <li><a href="#">Pollo</a></li>
+      <li><a href="#">Comida Mexicana</a></li>
+      <li><a href="#">Comida japonesa</a></li>
+      <li><a href="#">Bocadillos</a></li>
+      <li><a href="#">Comida India</a></li>
+      <li><a href="#">Comida vegetariana</a></li>
+      <li><a href="#">Comida desayunos</a></li>
+      <li><a href="#">Más tipos de comida</a></li>            
+    </ul>
+  </aside>
+
+  <article class="main">MAIN</article>
+
+  <footer class="footer">FOOTER</footer>
+
+</body>
+</html>

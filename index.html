@@ -1,59 +1,58 @@
 <!DOCTYPE html>
 <html lang="es">
-
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>LocalDeliv</title>
-  <link rel="stylesheet" href="estilos/cssPrincipal.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LocalDeliv</title>
+    <link rel="stylesheet" href="style/cssPrincipal.css">
 </head>
 
-<body class="grid-container">
-  <nav class="navbar">
-    <div>
-      <div class="descuento">
-          <span>¡Descuento del 30% en tu primer pedido!</span>
-     </div>    
-    </div>      
-  </nav>
 
-  <nav class="navbar2 flex">
-    <div class="flex">
-        <div class="logo img">
-            <a href="#"></a><img src="imagenes/logo.png" alt="logo"></a> 
-        </div>
-        <div class="logo">    
-            <h1>LocalDeliv</h1>
-        </div>
-   </div>
-    <ul class="flex">
-        <li><a href="#">Inciciar Sesión</a></li>
-        <li><a href="#">Quienes Somos</a></li>
-        <li><a href="#">Ayuda</a></li>
-        <li><a href="#">Contacto</a></li>
-    </ul>
-</nav>
+<header>
+    <h1 class="logo">LocalDeliv</h1> 
+    <input type="checkbox" id="nav-desplegable" class="nav-desplegable">  
+    <nav>         
+        <ul>
+            <li><a href="#">INICIO</a></li>
+            <li><a href="#">SOBRE_NOSOTROS</a></li>
+            <li><a href="#">AYUDA</a></li>
+            <li><a href="#">CONTACTO</a></li>
+            <li><a href="#">LOGIN</a></li>
+        </ul>
+    </nav>
+    <label for="nav-desplegable" class="nav-desplegable-label">
+        <span></span>
+    </label>
+</header>
 
-  <header class="header">
+<body>
     <div id="slider">
-      <figure>
-        <img src="imagenes/primera.png" alt="primera">
-        <img src="imagenes/segunda.png" alt="segunda">
-        <img src="imagenes/tercera.png" alt="tercera">
-        <img src="imagenes/segunda - copia.png" alt="segunda-copia">
-        <img src="imagenes/primera - copia.png" alt="primera-copia">
-      </figure>
-    </div>
-  </header>
-
-  <aside class="sidebar">SIDEBAR
-    <h2>Tipos de Comida</h2>
-    
-  </aside>
-
-  <article class="main">MAIN</article>
-
-  <footer class="footer">FOOTER</footer>
-
+        <figure>
+          <img src="imagenes/primera.png" alt="primera">
+          <img src="imagenes/segunda.png" alt="segunda">
+          <img src="imagenes/primera.png" alt="primera">
+          <img src="imagenes/segunda - copia.png" alt="segunda-copia">
+          <img src="imagenes/primera - copia.png" alt="primera-copia">
+        </figure>
+      </div>
+      
+      <aside class="sidebar">
+        <ul>
+            <li><a href="#">Comida China</a></li>
+            <li><a href="#">Kebab</a></li>
+            <li><a href="#">Pizza</a></li>
+            <li><a href="#">Sushi</a></li>
+            <li><a href="#">Hamburguesas</a></li>
+            <li><a href="#">Pollo</a></li>
+            <li><a href="#">Comida Mexicana</a></li>
+            <li><a href="#">Comida japonesa</a></li>
+            <li><a href="#">Bocadillos</a></li>
+            <li><a href="#">Comida India</a></li>
+            <li><a href="#">Comida vegetariana</a></li>
+            <li><a href="#">Comida desayunos</a></li>
+            <li><a href="#">Más tipos de comida</a></li>            
+          </ul>
+      </aside>
 </body>
 </html>
